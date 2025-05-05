@@ -57,11 +57,6 @@ ul {
   }
 
  /* navigation bar styling section :D */
-.navibox {
-    background-color: rgb(244, 233, 233);
-    padding: 10px;
-    text-align: left;
-}
 
 .naviheader {
     border-top-left-radius: 3px;
@@ -76,10 +71,24 @@ ul {
     box-shadow: #4c515c 2.5px 2.5px;
   }
 
+.naviheaderimg {
+    width: 24px; 
+    height: 24; 
+    padding-left: px; 
+    padding-bottom: 11px; 
+    vertical-align: middle;
+}
+
 .navicontent {
     background-color: #d7def8;
     padding: 10px;
     box-shadow: #4c515c 2.5px 2.5px
+}
+
+.naviimg {
+    padding: 5px 0px 0px 5px; 
+    width: 16px;
+    height: 16px;
 }
 
 .navi-grid {
