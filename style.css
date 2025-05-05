@@ -1,21 +1,21 @@
   
+   /* stolen from shittykickflips */
+   @font-face {
+    font-family: 'PC-98'; /*a name to be used later*/
+    src: url('/assets/pc-9800.ttf'); /*URL to font*/
+    }
+
   body {
     background: url("/assets/Floriano_Falls.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #000000;
-    background-color: #118475;
-    font-family: Verdana;
+    background-color: #000000;
     font-size: 18px;
-    margin: 0px;
     font-family: PC-98;
   }
  
-  /* stolen from shittykickflips */
-  @font-face {
-  font-family: 'PC-98'; /*a name to be used later*/
-  src: url('/assets/pc-9800.ttf'); /*URL to font*/
-  }
 
 /* removes bullet points yay */
 ul {
@@ -24,7 +24,7 @@ ul {
 
 
 
-/* the container to rule them all below */
+/* the container to rule them all */
 .container {
   margin: 0 auto;
   display: grid;
@@ -37,51 +37,51 @@ ul {
     width: 700px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 134px;
+    grid-template-rows: 140px;
     grid-template-columns: autofit;
   }
 
-  .header {
-    grid-column: 1/1;
+  .headerimg {
+    width:700px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    box-shadow: #35311a 4px 4px;
   }
-
 
 /* body container stuff below */
   .body-container {
     width: 1100px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 0px repeat(5, 200px);
+    grid-template-rows: 0px repeat(4, 200px);
     grid-template-columns: 190px 700px;
     gap: 10px;
   }
 
  /* navigation bar styling section :D */
 .navibox {
-    border: 2px solid #004cff;
     background-color: rgb(244, 233, 233);
     padding: 10px;
     text-align: left;
 }
 
 .naviheader {
-    border: 2px solid #d4d427;
-    background-color: rgb(242, 131, 131);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(to right, #fcffef, #d7e1fa, #d7def8);
+    color:#264689;
     padding: 10px;
+    padding-top: 15px;
     height: 20px;
-    width: px;
     display: flex;
     align-items: center;
+    box-shadow: #4c515c 2.5px 2.5px;
   }
 
-.naviheader img {
-  vertical-align: middle;
-}
-
 .navicontent {
-    border: 2px solid #004cff;
-    background-color: rgb(248, 140, 140);
+    background-color: #d7def8;
     padding: 10px;
+    box-shadow: #4c515c 2.5px 2.5px
 }
 
 .navi-grid {
@@ -101,6 +101,7 @@ ul {
     grid-row: 1/1;
     grid-column: 2/-1;
     margin-bottom: -10px;
+    box-shadow: #35311a 4px 4px
 }
 
 .blinkies {
@@ -117,6 +118,7 @@ ul {
     border-top-style: none;
     border-color: #d9d3b1;
     border-width: 5px;
+    box-shadow: #35311a 4px 4px
   }
 
   .content-grid {
