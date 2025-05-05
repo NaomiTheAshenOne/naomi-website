@@ -1,0 +1,136 @@
+  
+  body {
+    background: url("/assets/Floriano_Falls.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    background-color: #118475;
+    font-family: Verdana;
+    font-size: 18px;
+    margin: 0px;
+    font-family: PC-98;
+  }
+ 
+  /* stolen from shittykickflips */
+  @font-face {
+  font-family: 'PC-98'; /*a name to be used later*/
+  src: url('/assets/pc-9800.ttf'); /*URL to font*/
+  }
+
+/* removes bullet points yay */
+ul {
+    list-style-type: none;
+}
+
+
+
+/* the container to rule them all below */
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: autofit;
+  margin: 10px;
+}
+
+/* funky header styling */
+  .header-container {
+    width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 134px;
+    grid-template-columns: autofit;
+  }
+
+  .header {
+    grid-column: 1/1;
+  }
+
+
+/* body container stuff below */
+  .body-container {
+    width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 0px repeat(5, 200px);
+    grid-template-columns: 190px 700px;
+    gap: 10px;
+  }
+
+ /* navigation bar styling section :D */
+.navibox {
+    border: 2px solid #004cff;
+    background-color: rgb(244, 233, 233);
+    padding: 10px;
+    text-align: left;
+}
+
+.naviheader {
+    border: 2px solid #d4d427;
+    background-color: rgb(242, 131, 131);
+    padding: 10px;
+    height: 20px;
+    width: px;
+    display: flex;
+    align-items: center;
+  }
+
+.naviheader img {
+  vertical-align: middle;
+}
+
+.navicontent {
+    border: 2px solid #004cff;
+    background-color: rgb(248, 140, 140);
+    padding: 10px;
+}
+
+.navi-grid {
+  grid-row: 1/2;
+  grid-column: 1 / 1;
+}
+
+/* blinkies styling section :0 */
+.blinkies-grid {
+    background-image: url("/assets/content-background.png");
+    grid-column: 1/1;
+    border-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-color: #d9d3b1;
+    border-width: 5px;
+    grid-row: 1/1;
+    grid-column: 2/-1;
+    margin-bottom: -10px;
+}
+
+.blinkies {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+/* main contents :3 */
+  .content {
+    padding: 10px;
+    height: 100%;
+    background-image: url("/assets/content-background.png");
+    border-style: solid;
+    border-top-style: none;
+    border-color: #d9d3b1;
+    border-width: 5px;
+  }
+
+  .content-grid {
+    grid-row: 2/-1;
+    grid-column: 2/-1
+    
+  }
+/* guesbook bar styling section :D */
+/*  .guestbook-grid {
+    grid-row: 2/-1;
+    grid-column: 2/-1
+  }
+  .guestbook {
+    background: linear-gradient(#1e232a, #202228, #15161a);
+    padding: 10px;
+    height: 500px;
+  }*/
