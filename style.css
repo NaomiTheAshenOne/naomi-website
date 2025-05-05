@@ -22,8 +22,6 @@ ul {
     list-style-type: none;
 }
 
-
-
 /* the container to rule them all */
 .container {
   margin: 0 auto;
@@ -37,7 +35,7 @@ ul {
     width: 700px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 140px;
+    grid-template-rows: 164px;
     grid-template-columns: autofit;
   }
 
