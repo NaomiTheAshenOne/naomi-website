@@ -51,7 +51,7 @@ ul {
     width: 1100px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 0px repeat(4, 200px) 55px;
+    grid-template-rows: 0px repeat(4, 200px) 90px;
     grid-template-columns: 190px 700px;
     gap: 10px;
   }
