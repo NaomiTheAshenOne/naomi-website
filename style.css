@@ -17,9 +17,9 @@
   }
  
 
-/* removes bullet points yay */
+/* removes bullet points yay, actually they are square now c: */
 ul {
-    list-style-type: none;
+    list-style-type: square;
 }
 
 /* the container to rule them all */
@@ -51,7 +51,7 @@ ul {
     width: 1100px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 0px repeat(4, 200px);
+    grid-template-rows: 0px repeat(4, 200px) 55px;
     grid-template-columns: 190px 700px;
     gap: 10px;
   }
@@ -120,7 +120,8 @@ ul {
     border-top-style: none;
     border-color: #d9d3b1;
     border-width: 5px;
-    box-shadow: #35311a 4px 4px
+    box-shadow: #35311a 4px 4px;
+
   }
 
   .content-grid {
