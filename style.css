@@ -61,7 +61,7 @@ ul {
     gap: 10px;
   }
 
- /* navigation bar styling section :D */
+ /* OLD navigation bar styling section :D 
 
 .naviheader {
     border-top-left-radius: 3px;
@@ -90,6 +90,21 @@ ul {
     box-shadow: #4c515c 2.5px 2.5px
 }
 
+.naviimg {
+    padding: 5px 0px 0px 5px; 
+    width: 16px;
+    height: 16px;
+}
+
+*/
+
+.navicontent {
+    background-color: #faf9c4;
+    padding: 10px;
+    box-shadow: #998a64 2.5px 2.5px;
+    background-image: url("/assets/content-background.png");
+}
+/* make lined backgorund DELETE LATER*/
 .naviimg {
     padding: 5px 0px 0px 5px; 
     width: 16px;
