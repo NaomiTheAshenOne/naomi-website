@@ -15,7 +15,12 @@
     font-size: 18px;
     font-family: PC-98;
   }
- 
+
+@media screen and (min-width: 600px) {
+  body {
+    background-size: cover;
+  }
+}  
 
 /* removes bullet points yay, actually they are square now c: */
 ul {
@@ -121,7 +126,6 @@ ul {
     border-color: #d9d3b1;
     border-width: 5px;
     box-shadow: #35311a 4px 4px;
-
   }
 
   .content-grid {
