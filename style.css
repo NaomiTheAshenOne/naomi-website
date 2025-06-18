@@ -128,7 +128,11 @@ ul {
     grid-row: 1/1;
     grid-column: 2/-1;
     margin-bottom: -10px;
-    box-shadow: #35311a 4px 4px
+    box-shadow: #35311a 4px 4px;
+}
+
+.blinkies {
+    z-index: 10;
 }
 
 /* main contents :3 */
